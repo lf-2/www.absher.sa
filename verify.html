@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>التحقق / Verification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://www.al-jazirahonline.com/wp-content/uploads/2023/01/03/48da901e-9e10-4395-9edd-59d6bd823cbe.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.92);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .info {
+      font-size: 22px;
+      font-weight: bold;
+      color: #b30000;
+      background-color: #fff0f0;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      display: inline-block;
+      line-height: 1.7;
+    }
+
+    form {
+      background: white;
+      display: inline-block;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input {
+      margin: 10px auto;
+      padding: 10px;
+      width: 240px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      display: block;
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 30px;
+      font-size: 17px;
+      background-color: #006644;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #004d33;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay">
+    <div class="info">
+      سوف يتم الاتصال بك للتحقق، الرجاء إدخال الكود المرسل<br>
+      <span style="font-size:18px;color:#333;">You will be contacted for verification. Please enter the code sent to you</span>
+    </div>
+
+    <form id="codeForm">
+      <input type="text" name="code" placeholder="ادخل الكود / Enter Code" required>
+      <button type="submit">التالي / Next</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
